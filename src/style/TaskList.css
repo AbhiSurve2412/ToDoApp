@@ -1,0 +1,42 @@
+.task-container {
+  border: 2px solid #ccc;
+  border-radius: 8px; 
+  padding: 10px;
+  background-color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  min-height: 200px; 
+}
+
+.list-group-item {
+  border: 1px solid #eaeaea; 
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #f8f9fa;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef;
+  transform: translateY(-2px);
+}
+
+.btn-danger {
+  transition: opacity 0.2s ease-in-out;
+}
+
+.btn-danger:hover {
+  opacity: 0.85;
+}
+
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.list-group-item.completed {
+  text-decoration: line-through; 
+  color: #6c757d;
+}
+
+.btn-success {
+  margin-right: 8px; 
+}

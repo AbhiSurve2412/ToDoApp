@@ -1,0 +1,17 @@
+input, button {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  input:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  }
+  
+  input:hover, button:hover {
+    transform: scale(1.03);
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  

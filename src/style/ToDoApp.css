@@ -1,0 +1,46 @@
+.app-main-container {
+  text-align: center;
+  width: 100%;
+}
+
+.app-header {
+  display: flex;         
+  justify-content: center; 
+  align-items: center;  
+  padding: 20px 0;
+  background-color: grey;
+  color: white;
+  margin-bottom: 5px; 
+  width: 100%;          
+}
+
+.app-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.app-container {
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+  width: 90%;
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .app-container, .app-header {
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  .app-header {
+    padding: 15px 0;
+  }
+
+  .app-title {
+    font-size: 1rem;
+  }
+}
